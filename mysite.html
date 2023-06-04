@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+h1{
+  margin: 1em auto;
+  text-align: center;
+}
+        body{
+         background-color: lightblue;
+         color: black;
+         font-family: Tahoma;
+          font-size: 16px;
+        }
+
+    
+input[type=text], select {
+  width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+ 
+    </style>
+    <script>
+        function display() {
+            var fname = document.getElementById('fname').value;
+        var lname = document.getElementById('lname').value;
+       alert("congradultion"+fname+lname+"now you are sinup");
+    
+        
+}
+
+
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mysite</title>
+
+</head>
+
+<body>
+    <body>
+        <h1>sgin up form</h1>
+        <form></form>
+        <div>First and last name:</br> <input type="text" id="fname" name="fname"> </br></div>
+        <div id="re"></div>
+        <div> last name:</br><input type="text" id="lname" name="lname"> </br></div>
+        <div for="email"><b>Email</br> <input type="text" placeholder="Enter Email" name="email" id="email" required></br></div>
+    <div> orgnization:</br> <input type="text" id="org" name="org"></br></div>
+    <div> work  Pboor: </br><input type="text" id="work1" name="work1"></br></div>
+    <div> work  Hboor:</br> <input type="text" id="work2" name="work2"></br></div>
+    <lable> call phone:</br> <input type="text" id="call" name="call"></br></div>
+    <div> fax:</br> <input type="text" id="fax" name="fax"><br></div>
+     <div> adress1: </br><input type="text" id="add1" name="add1"  required></br></div>
+     <div> adress2: </br> <input type="add2" id="org" name="add2"></br></div>
+      <div> city: </br><input type="text" id="city" name="city"></br></div>
+       <div> state:</br> <input type="text" id="state" name="state"></br></div>
+       <div> zip postal code: </br><input type="text" id="zip" name="zip"></br></div>
+       <div> country: </br><input type="text" id="country" name="country"  required></br></div>
+       <button  onclick="display()">submit</button>
+    </form>
+    
+</body>
+</html>
